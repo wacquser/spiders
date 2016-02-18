@@ -19,8 +19,8 @@ MONGO_DATABASE = 'lagou'
 
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
 
-LOG_FILE = 'log.log'
-LOG_LEVEL = 'INFO'
+# LOG_FILE = 'log.log'
+# LOG_LEVEL = 'INFO'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'employment (+http://www.yourdomain.com)'
 
@@ -69,6 +69,7 @@ LOG_LEVEL = 'INFO'
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'employment.pipelines.EmploymentPipeline': 300,
+   'scrapy_redis.pipelines.RedisPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -89,3 +90,17 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR='httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES=[]
 #HTTPCACHE_STORAGE='scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER_PERSIST = True
+SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
+
+# Specify the host and port to use when connecting to Redis (optional).
+# REDIS_HOST = 'localhost'
+# REDIS_PORT = 6379
+
+# Specify the full Redis URL for connecting (optional).
+# If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
+# REDIS_URL = 'redis://user:pass@hostname:9001'
+# REDIS_URL = 'redis://192.168.1.112:6379'
+REDIS_URL = 'redis://192.168.1.139:6379'

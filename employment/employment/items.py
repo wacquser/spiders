@@ -9,7 +9,8 @@ import scrapy
 
 class EmploymentItem(scrapy.Item):
 
-    # positionId = scrapy.Field()
+    crawled_time = scrapy.Field()
+    # deleted_time = scrapy.Field()
     positionName = scrapy.Field()
     createTime = scrapy.Field()
     companyName = scrapy.Field()
