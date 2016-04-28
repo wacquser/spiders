@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../guojiatongjiju/.idea/National_Data.iml" filepath="$PROJECT_DIR$/../guojiatongjiju/.idea/National_Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/guiyangdashuju.iml" filepath="$PROJECT_DIR$/.idea/guiyangdashuju.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qixinbao/.idea/qixinbao.iml" filepath="$PROJECT_DIR$/../qixinbao/.idea/qixinbao.iml" />
     </modules>
   </component>
 </project>

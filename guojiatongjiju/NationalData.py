@@ -9,7 +9,7 @@ class NationalData():
 
         # fp.set_preference("browser.download.folderList", 0) # 下载到桌面
         fp.set_preference("browser.download.folderList",2)
-        self.download_dir = os.getcwd()+'\download'
+        self.download_dir = os.getcwd()+'\data'
         fp.set_preference("browser.download.dir", self.download_dir)
         fp.set_preference("browser.download.manager.showWhenStarting",False)
         fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream, application/vnd.ms-excel,  text/csv, application/zip")
@@ -59,7 +59,7 @@ class NationalData():
                                     driver.find_element_by_id("excel").click() # 不能下载csv，只能为excel
                                     driver.find_element_by_css_selector("div.doneDodnload.btn").click()
                                     time.sleep(3) # 下载文件需要一定的时间
-                                    shutil.move('download/月度数据.xls', self.download_dir+'/'+absolute_file_name) # 将下载的文件移动到准确的位置上
+                                    shutil.move('data/月度数据.xls', self.download_dir+'/'+absolute_file_name) # 将下载的文件移动到准确的位置上
                                     download_count += 1
                                     time.sleep(3) # 移动文件需要一定的时间
                                     break
@@ -112,7 +112,7 @@ class NationalData():
                     driver.find_element_by_id("excel").click() # 不能下载csv，只能为excel
                     driver.find_element_by_css_selector("div.doneDodnload.btn").click()
                     time.sleep(2) # 下载文件需要一定的时间
-                    shutil.move('download/月度数据.xls', self.download_dir+'/'+absolute_file_name) # 将下载的文件移动到准确的位置上
+                    shutil.move('data/月度数据.xls', self.download_dir+'/'+absolute_file_name) # 将下载的文件移动到准确的位置上
                     redownload_count += 1
                     time.sleep(2) # 移动文件需要一定的时间
                 except Exception as e:
@@ -136,6 +136,9 @@ class NationalData():
                     logfile.write(each + '\n')
 
 if __name__ == "__main__":
+
+    username = ""
+    password = ""
 
     username = "kylinlingh@163.com"
     password = "lin0607103014"

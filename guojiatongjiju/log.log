@@ -41,4 +41,45 @@ wrong downloading: 金融/货币供应量.xlsexception: Message: Unable to locat
 Stacktrace:
     at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
     at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)重新下载成功文件数量：1重新下载仍然失败，需要手动下载如下文件：金融/货币供应量.xls
-成功下载文件数量：359个下载失败文件数量：2个����ʱ�䣺Thu Apr  7 16:09:08 2016开始时间：Wed Apr 27 11:00:18 2016开始时间：Wed Apr 27 11:09:48 2016
+成功下载文件数量：359个下载失败文件数量：2个����ʱ�䣺Thu Apr  7 16:09:08 2016开始时间：Wed Apr 27 11:00:18 2016开始时间：Wed Apr 27 11:09:48 2016开始时间：Thu Apr 28 10:37:51 2016
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 1 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 2 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 3 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国食品类居民消费价格指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 1 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国食品类居民消费价格指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmp9vz40zv_/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 2 time to try开始时间：Thu Apr 28 10:41:21 2016
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpaiosrzxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpaiosrzxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 1 time to try开始时间：Thu Apr 28 10:46:21 2016
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 1 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 2 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: Message: Unable to locate element: {"method":"css selector","selector":"a.download1.mr20"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpj9mxf_8x/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 3 time to try开始时间：Thu Apr 28 10:49:31 2016开始时间：Thu Apr 28 10:50:27 2016
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: [Errno 2] No such file or directory: 'download/月度数据.xls'This is the 1 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: [Errno 2] No such file or directory: 'download/月度数据.xls'This is the 2 time to try
+wrong downloading: 价格指数/居民消费价格分类指数(上年同月=100)/全国居民消费价格分类指数(上年同月=100).xlsexception: [Errno 2] No such file or directory: 'download/月度数据.xls'This is the 3 time to try开始时间：Thu Apr 28 10:51:32 2016
+wrong downloading: 价格指数/分行业工业生产者出厂价格指数(上年同月=100)(2014-至今).xlsexception: Message: Element is not clickable at point (1133, 9). Other element would receive the click: <th class=""></th>
+This is the 1 time to try
