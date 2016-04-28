@@ -1,0 +1,15 @@
+<order>
+
+    <广东征信大数据>
+        <order_id>131451031456906</order_id>
+        <token_id>VaytdwE1C6fll-iYB/uzFw==</token_id>
+        <enterprist_list>
+            <url>http://api.gbdex.com/trade.tollgate/gbdex10/GetGBDEXEnt_AllList</url>
+            <file_name>企业列表.txt</file_name>
+        </enterprist_list>
+        <enterprist_info>
+            <url>http://api.gbdex.com/trade.tollgate/gbdex10/GetGBDEXEnt_AllInfo</url>
+            <dir>企业征信列表</dir>
+        </enterprist_info>
+    </广东征信大数据>
+</order>

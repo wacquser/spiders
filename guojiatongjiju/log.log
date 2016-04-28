@@ -1,0 +1,44 @@
+开始时间：Thu Apr  7 15:15:04 2016开始时间：Thu Apr  7 15:15:51 2016
+wrong downloading: 价格指数/分行业工业生产者出厂价格指数(上年同月=100)(2014-至今).xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <th class=""></th>
+This is the 1 time to try
+wrong downloading: 工业/私营工业企业主要经济指标.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 工业/按行业分工业企业主要经济指标(2001-2002)/工业企业单位数.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 工业/按行业分工业企业主要经济指标(2003-2011)/工业企业单位数.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 工业/按行业分工业企业主要经济指标(2012-至今)/工业企业单位数.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <span class="" code="201601"></span>
+This is the 1 time to try
+wrong downloading: 工业/按行业分工业企业主要经济指标(2012-至今)/工业企业负债合计.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 固定资产投资(不含农户)/固定资产投资情况.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <th class=""></th>
+This is the 1 time to try
+wrong downloading: 固定资产投资(不含农户)/按行业分固定资产投资情况(1998-2003)/第三产业固定资产投资额.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <th class=""></th>
+This is the 1 time to try
+wrong downloading: 房地产/房地产开发投资情况.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 对外经济/进出口总额.xlsexception: Message: Element is not clickable at point (1102, 9). Other element would receive the click: <strong></strong>
+This is the 1 time to try
+wrong downloading: 交通运输/旅客运输量.xlsexception: Message: Element is not clickable at point (343, 818). Other element would receive the click: <div style="left: 263px; display: block;" class="tc experience"></div>
+This is the 1 time to try
+wrong downloading: 交通运输/旅客运输量.xlsexception: Message: Element is not clickable at point (343, 818). Other element would receive the click: <div style="left: 263px; display: block;" class="tc experience"></div>
+This is the 2 time to try
+wrong downloading: 交通运输/旅客运输量.xlsexception: Message: Element is not clickable at point (343, 818). Other element would receive the click: <div style="left: 263px; display: block;" class="tc experience"></div>
+This is the 3 time to try
+wrong downloading: 金融/货币供应量.xlsexception: Message: Unable to locate element: {"method":"id","selector":"treeZhiBiao_391_a"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 1 time to try
+wrong downloading: 金融/货币供应量.xlsexception: Message: Unable to locate element: {"method":"id","selector":"treeZhiBiao_391_a"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 2 time to try
+wrong downloading: 金融/货币供应量.xlsexception: Message: Unable to locate element: {"method":"id","selector":"treeZhiBiao_391_a"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)This is the 3 time to try正在尝试重新下载之前下载失败的文件...出错的文件有以下这些：treeZhiBiao_391_a : 金融/货币供应量.xlstreeZhiBiao_385_a : 交通运输/旅客运输量.xls
+wrong downloading: 金融/货币供应量.xlsexception: Message: Unable to locate element: {"method":"id","selector":"treeZhiBiao_391_a"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///C:/Users/kylin/AppData/Local/Temp/tmpizfk7yxt/extensions/fxdriver@googlecode.com/components/driver-component.js:625)重新下载成功文件数量：1重新下载仍然失败，需要手动下载如下文件：金融/货币供应量.xls
+成功下载文件数量：359个下载失败文件数量：2个����ʱ�䣺Thu Apr  7 16:09:08 2016开始时间：Wed Apr 27 11:00:18 2016开始时间：Wed Apr 27 11:09:48 2016

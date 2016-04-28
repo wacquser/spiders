@@ -1,0 +1,18 @@
+作者：林冠豪
+日期：2016-04-07
+
+文件说明：
+source.html：    该网站的源代码，需要按顺序逐一点开全部标签，然后把源代码复制下来
+Extraction.py：  用于提取html文件中的标签名和文件名，把结果保存到intermediate.txt文件中
+NationalData.py：使用firefox浏览器逐一下载intermediate.txt文件中的全部文件
+log.log:         firefox下载文件的日志，注意在下载完之后要浏览该文件，把下载失败的文件手动下载一次
+
+运行流程：
+1、打开该网站的“月度数据”标签，然后按顺序（一定要按从上到下的顺序）逐一展开下面的全部子标签，然后把源代码复制下来，保存到source.html文件中
+2、运行Extraction.py文件，生成intermediate.txt文件
+3、运行NationalData.py文件，会自动打开firefox浏览器下载全部文件，保存到download文件夹中，同时生成log.log日志文件
+4、一定要检查log.log文件，把程序不能下载的文件手动下载一次
+
+注意：
+1、程序启动后，打开firefox时是窗口最大化的，千万不要改变窗口的尺寸，否则会定位标签失败
+2、log.log文件中某个文件出现的次数大于或等于3次，则证明下载失败了

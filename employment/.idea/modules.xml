@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/employment.iml" filepath="$PROJECT_DIR$/.idea/employment.iml" />
       <module fileurl="file://$USER_HOME$/Documents/GitHub/scrapy-redis/example-project/.idea/example-project.iml" filepath="$USER_HOME$/Documents/GitHub/scrapy-redis/example-project/.idea/example-project.iml" />
+      <module fileurl="file://D:/python2/Lib/site-packages/scrapy/.idea/scrapy.iml" filepath="D:/python2/Lib/site-packages/scrapy/.idea/scrapy.iml" />
     </modules>
   </component>
 </project>
