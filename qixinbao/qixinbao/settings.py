@@ -9,17 +9,20 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'qixinbao_crawler'
+USER_NAME = ''
+PASSWORD = ''
 
-SPIDER_MODULES = ['qixinbao_crawler.spiders']
-NEWSPIDER_MODULE = 'qixinbao_crawler.spiders'
+BOT_NAME = 'qixinbao'
+
+SPIDER_MODULES = ['qixinbao.spiders']
+NEWSPIDER_MODULE = 'qixinbao.spiders'
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
 
 MONGO_URI = 'localhost'
 MONGO_DATABASE = 'qixinbao'
 
 ITEM_PIPELINES = {
-    'qixinbao_crawler.pipelines.QixinbaoCrawlerPipeline' : 300,
+    'qixinbao.pipelines.QixinbaoCrawlerPipeline' : 300,
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

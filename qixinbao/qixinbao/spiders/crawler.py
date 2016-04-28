@@ -4,9 +4,10 @@ import urlparse
 import time
 from selenium import webdriver
 from scrapy.http import Request
-from qixinbao_crawler.items import QixinbaoCrawlerItem
+from qixinbao.items import QixinbaoCrawlerItem
 from lxml import etree
 import urllib2
+from qixinbao.settings import USER_NAME,PASSWORD
 
 import requests
 
@@ -22,9 +23,9 @@ class BasicSpider(scrapy.Spider):
         driver.implicitly_wait(30)
         driver.get( "http://www.qixin.com/login")
         driver.find_element_by_name("account").clear()
-        driver.find_element_by_name("account").send_keys("15602235484")
+        driver.find_element_by_name("account").send_keys(USER_NAME)
         driver.find_element_by_name("password").clear()
-        driver.find_element_by_name("password").send_keys("15602235484")
+        driver.find_element_by_name("password").send_keys(PASSWORD)
         time.sleep(5)
         driver.find_element_by_id("btnLogin").click()
         cookies = driver.get_cookies()
@@ -42,10 +43,11 @@ class BasicSpider(scrapy.Spider):
 
     def parse(self, response):
         cookies, driver = self.get_cookies()
-        list_of_company = self.get_company('qixinbao_crawler/company.txt')
+        list_of_company = self.get_company('qixinbao/company.txt')
         for company in list_of_company:
             encode_company = urllib2.quote(company)
             url = self.get_last_url(driver, encode_company)
+            time.sleep(1)
             yield Request(url=url,
                            cookies=cookies,
                            meta={'cookies':cookies},
